@@ -1,0 +1,52 @@
+
+.What-client{
+  background-color: #ededed;
+}
+
+.what-text-wrapper{
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.what{
+  font-size: 30px;
+  padding: 60px 0;
+}
+
+.what-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  justify-content: center;
+  gap: 25px;
+}
+
+.what-info{
+  width: 280px;
+}
+
+.what-p{
+  color: #151618;
+}
+
+.what-h{
+  font-size: 18px;
+}
+
+.input-pole::placeholder{
+  color: #754E29;
+  opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+  
+  .what-wrapper .what-info:last-child{
+    display: none;
+  }
+}
+
+@media (max-width: 768px){
+  .what-wrapper .what-info:last-child {
+      display: block;
+    }
+}

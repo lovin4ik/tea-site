@@ -1,0 +1,18 @@
+
+@import './components/_defolt.css';
+
+@import './components/_header.css';
+
+@import './components/_hero-sec.css';
+@import './components/tea-info.css';
+
+@import './components/explore-sec.css';
+@import './components/what-clients.css';
+
+@import './components/blog-tea.css';
+@import'./components/more-know.css';
+
+@import './components/prioritise.css';
+@import './components/footer.css';
+
+@import './components/modal-window.css';
